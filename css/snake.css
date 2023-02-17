@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content {
+    position: relative;
+    display: grid;
+    grid-template: repeat(27, 20px) / repeat(48, 20px);
+}
